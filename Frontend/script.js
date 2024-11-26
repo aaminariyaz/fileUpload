@@ -34,8 +34,8 @@ $(document).ready(function(){
     });
 
     //handle image retrieval by name
-    $('#retrieveForm').click(function(){
-        const name = $('#retrieveForm').val();
+    $('#retrieveBtn').click(function(){
+        const name = $('#retrieveName').val();
         // if(!name) {
         //     alert("Please enter a name");
         //     return;
